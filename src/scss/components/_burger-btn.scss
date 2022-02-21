@@ -1,0 +1,68 @@
+.burger-btn {
+  position: relative;
+  @include center();
+  z-index: 5;
+  width: 34.5px;
+  height: 29px;
+  margin-left: calc(15%/2);
+  margin-bottom: 2rem;
+
+  &:focus {
+    outline: 2px white solid;
+    outline-offset: 5px;
+  }
+
+  &__lines {
+    display: block;
+    width: 34.5px;
+    height: 3px;
+    background-color: white;
+
+    // the following transition is here so that when the menu is closed, the middle burger line's bg color changes over .2s. We only want this to happen when the menu closes, hence why this property is dissabled in the .open class below.
+    transition: all 0.2s;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 34.5px;
+      height: 3px;
+      background-color: white;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+    }
+
+    &::before {
+      transform: translateY(-10px);
+    }
+
+    &::after {
+      transform: translateY(10px);
+    }
+  }
+
+  &--open {
+    .burger-btn__lines {
+      width: 24.4px;
+      background: transparent;
+
+      // We dissable the transition prop as mentioned on line 13.
+      transition: none;
+
+      &::before {
+        width: 24.4px;
+        transform: translateY(0) rotate(135deg);
+      }
+
+      &::after {
+        width: 24.4px;
+        transform: translateY(0) rotate(-135deg);
+      }
+    }
+  }
+
+  @include media(tablet-l) {
+    display: none;
+  }
+}

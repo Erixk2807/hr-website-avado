@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261.61" height="261.61" viewBox="0 0 261.61 261.61">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.925" y1="0.925" x2="0.075" y2="0.075" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00cdc2"/>
+      <stop offset="1" stop-color="#6154c7"/>
+    </linearGradient>
+    <filter id="Rectangle_59" x="0" y="0" width="261.61" height="261.61" filterUnits="userSpaceOnUse">
+      <feOffset dx="6.11" dy="6.11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.182" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Accountability" transform="translate(-161.296 -5344.617)">
+    <g transform="matrix(1, 0, 0, 1, 161.3, 5344.62)" filter="url(#Rectangle_59)">
+      <rect id="Rectangle_59-2" data-name="Rectangle 59" width="248.517" height="248.517" rx="63.606" transform="translate(0.44 0.44)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_184" data-name="Group 184">
+      <rect id="Rectangle_60" data-name="Rectangle 60" width="41.064" height="20.778" rx="3.179" transform="translate(264.395 5384.509)" fill="#fff"/>
+      <path id="Path_180" data-name="Path 180" d="M334.852,5396.288h-25.3c-.234,4.494,1.7,13.626-5.573,13.453H265.9c-7.239.183-5.387-8.974-5.573-13.453h-23.2c-4.4,0-7.97,3.3-7.97,7.367v143.093c0,4.069,3.568,7.367,7.97,7.367h97.723c4.4,0,7.97-3.3,7.97-7.367V5403.655C342.822,5399.587,339.254,5396.288,334.852,5396.288Zm-60.7,108.568c-1.77,1.318-12.694,16.477-15.3,15.635-2.091.322-6.878-5.131-8.425-6.148-3.582-3.049,1.264-8.612,4.774-5.481l3.313,2.884,10.145-11.663C271.714,5496.486,277.276,5501.346,274.148,5504.856Zm0-29.628c-1.77,1.318-12.694,16.476-15.3,15.634-2.091.323-6.878-5.13-8.425-6.147-3.582-3.05,1.264-8.612,4.774-5.482l3.313,2.884,10.145-11.662C271.714,5466.857,277.276,5471.718,274.148,5475.228Zm0-29.629c-1.77,1.318-12.694,16.477-15.3,15.635-2.091.322-6.878-5.131-8.425-6.148-3.582-3.049,1.264-8.612,4.774-5.481l3.313,2.883,10.145-11.662C271.714,5437.228,277.276,5442.089,274.148,5445.6Zm46.3,67.287H288.161a3.222,3.222,0,0,1,0-6.443H320.45C324.617,5506.39,324.634,5512.939,320.45,5512.886Zm0-29.629H288.161a3.221,3.221,0,0,1,0-6.443H320.45C324.617,5476.761,324.634,5483.311,320.45,5483.257Zm0-29.629H288.161a3.221,3.221,0,1,1,0-6.442H320.45C324.617,5447.133,324.634,5453.682,320.45,5453.628Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

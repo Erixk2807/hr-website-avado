@@ -1,0 +1,148 @@
+.main-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  @include container();
+  width: 100%;
+  z-index: 99;
+  margin: 0 auto;
+  margin-top: 4rem;
+  @include media(tablet-l) {
+    margin-top: 0;
+  }
+  &--hide {
+    display: block;
+    @include media(tablet-l) {
+      display: none;
+    }
+  }
+
+  &_container {
+    transform: translateX(-100vw);
+    @include media(tablet-l) {
+      transform: translateX(0);
+    }
+    &--visible {
+      padding: 4rem;
+      width: 80%;
+      margin: auto;
+      transform: translateX(0);
+      box-shadow: 10px 10px 100px black;
+      background-color: white;
+      border-radius: 30px;
+      transition: all 0.5s;
+    }
+  }
+
+  @include media(tablet-l) {
+    top: 0;
+    position: relative;
+    padding: clamp(calc(6rem / 2), 3vw, calc(11rem / 2)) 0;
+    .main-nav_container {
+      @include space-between;
+      width: 100%;
+    }
+  }
+
+  &__list {
+    // Hides the home icon only visible on large viewports
+    &--home {
+      display: none;
+      @include media(tablet-l) {
+        display: flex;
+        .main-nav__link {
+          min-width: auto;
+          margin-right: 2rem;
+          &:hover img {
+            display: flex;
+          }
+        }
+      }
+    }
+
+    &--icons {
+      @include space-between();
+      flex-wrap: wrap;
+      @include media(tablet-l) {
+        flex-wrap: nowrap;
+        .main-nav__item {
+          margin-right: clamp(1rem, 2vw, 2.2rem);
+        }
+      }
+    }
+  }
+
+  &__logo {
+    display: none;
+    @include media(tablet-l) {
+      display: inline-block;
+    }
+    img {
+      width: clamp(9rem, 10vw, 16rem);
+      vertical-align: middle;
+    }
+  }
+
+  &__item {
+    @include center();
+    flex: 1 2 50%;
+    margin-bottom: 2rem;
+    @include media(tablet-l) {
+      flex: none;
+      margin-bottom: 0;
+    }
+    img {
+      width: auto;
+      @include media(tablet-l) {
+        width: clamp(5rem, 4vw, 8.5rem);
+      }
+    }
+
+    span {
+      display: inline-block;
+      max-width: 5ch;
+      font-size: clamp(2rem, 2vw, 3.5rem);
+      color: rgba(#343438, 1);
+      text-decoration: none;
+      @include media(tablet-l) {
+        display: none;
+        color: white;
+      }
+    }
+    @include media(tablet-l) {
+      &--active {
+        img {
+          display: none;
+          transition: all 0.5s;
+        }
+        span {
+          display: inline-block;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+
+  &__link {
+    @include center();
+    line-height: 1;
+    font-weight: 900;
+    min-width: clamp(6rem, 6.5vw, 13rem);
+    text-align: center;
+    flex-direction: column;
+    &:hover {
+      text-decoration: none;
+    }
+    @include media(tablet-l) {
+      &:hover span {
+        display: block;
+      }
+
+      &:hover img {
+        display: none;
+      }
+    }
+  }
+}

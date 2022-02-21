@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  &__navbar {
+    padding: calc(11rem/2) 0;
+  }
+
+  //   // This class is applied by javascript when user scrolls down in mobile view
+  //   &--hide {
+  //     transform: translateY(-200px);
+  //   }
+
+  //   // This class is applied by javascript when user scrolls up (and isn't scrolled to the very top) in mobile view
+  //   &--visible-scrolled {
+  //     transform: translateY(0);
+  //     background: rgba(#343438, 0.8);
+  //   }
+
+  // @include media(tablet-l) {
+  //   padding: 0;
+  // }
+  // }
+}

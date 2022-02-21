@@ -1,0 +1,26 @@
+.page-two {
+  background-image: url("../../assets/page-2-bg/_Homepage.png");
+  overflow-x: hidden;
+  padding: 4rem 0;
+
+  .page__inner {
+    @include flex-column();
+    justify-content: center;
+    
+    .main-nav {
+      margin-top: 0;
+    }
+
+    &> .main-content:first-of-type {
+      margin: 0;
+      margin-top: 5rem;
+      @include media(tablet-l){
+        margin: 0;
+        }
+      }
+    &> .main-content:last-of-type {
+        margin: 0;
+      } 
+  }
+}
+

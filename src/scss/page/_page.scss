@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  width: 300%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.page {
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: opacity(1);
+  overflow-y: auto;
+  overflow-x: hidden;
+  &--font-dark {
+    .heading {
+      color: rgb(52, 52, 56);
+    }
+  }
+  &--font-light {
+    color: white;
+  }
+  &__inner {
+    position: relative;
+    // height: 100%;
+    width: 100%;
+  }
+}

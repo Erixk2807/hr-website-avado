@@ -1,0 +1,26 @@
+// This customizes the icon to look like the video play button.
+.video {
+  position: relative;
+  @include center;
+
+  video {
+    min-width: 0;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    width: 100%;
+    background: #344958;
+  }
+
+  &__btn {
+    position: absolute;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+
+    // Pointer events are set to none so that when you click on the button, it passes through and clicks on the video element, which activates an event callback set via Javascript that starts and stops video playback
+    pointer-events: none;
+
+    &--hide {
+      display: none;
+    }
+  }
+}

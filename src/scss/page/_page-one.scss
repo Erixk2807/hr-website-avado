@@ -1,0 +1,17 @@
+.page-one {
+  background-image: url("../../assets/start-page-bg/_Landing\ Page.png");
+
+    .main-content {
+      margin: 0;
+      height: 100%;
+      .lp-content {
+        width: 100%;
+        @include media(tablet-l){width: clamp(75rem, 35vw, 80rem);}
+        height: 100%;
+        justify-content: center;
+      }
+    }
+    .page__inner {
+      height: 100%;
+    }  
+  }

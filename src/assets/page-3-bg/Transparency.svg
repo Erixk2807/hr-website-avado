@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261.61" height="261.61" viewBox="0 0 261.61 261.61">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.925" y1="0.925" x2="0.075" y2="0.075" gradientUnits="objectBoundingBox">
+      <stop offset="0.001" stop-color="#453878"/>
+      <stop offset="0.969" stop-color="#9987ff"/>
+    </linearGradient>
+    <filter id="Rectangle_64" x="0" y="0" width="261.61" height="261.61" filterUnits="userSpaceOnUse">
+      <feOffset dx="6.11" dy="6.11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.182" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Transparency" transform="translate(-1509.506 -5344.617)">
+    <g transform="matrix(1, 0, 0, 1, 1509.51, 5344.62)" filter="url(#Rectangle_64)">
+      <rect id="Rectangle_64-2" data-name="Rectangle 64" width="248.517" height="248.517" rx="63.606" transform="translate(0.44 0.44)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Path_201" data-name="Path 201" d="M1641.757,5388.706c-37.214-.244-64.195,33.122-60.454,69.342-.645,3.325-18.142,30.972-14.36,34.055,1.826,4.01,11.087,1.9,14.359,2.4.567,30.242-5.995,39.206,30.228,31.124.611,2.98-1.644,21.343,1.783,23.093-2.139,3.782,63.908-9.418,64.535-8.946a5.034,5.034,0,0,0,4.212-4.968v-31.044c0-7.012,3.446-12.635,6.338-16.131C1721.011,5450.265,1691.6,5387.238,1641.757,5388.706Zm25.5,56.073c-4.815,3.453-30.54,40.6-37.813,37.74-4.3.393-16.276-12.628-19.556-14.8-8.664-7.375,3.055-20.829,11.544-13.257l8.015,6.975,24.534-28.206C1661.371,5424.534,1674.824,5436.29,1667.257,5444.779Z" fill="#fff"/>
+  </g>
+</svg>

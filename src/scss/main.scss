@@ -1,0 +1,38 @@
+// Abstract Imports (Vairbales, mixins, viewport breakpoints, animations)
+@import "./abstract/mixins";
+@import "./abstract/animations";
+@import "./abstract/breakpoints";
+
+// utilities
+@import "./utilities/bg";
+@import "./utilities/utilities";
+
+//page
+@import "./page/page.scss";
+@import "./page/page-one";
+@import "./page/page-two";
+@import "./page/page-three";
+
+// base styles
+@import "./base/base";
+@import "./base/typography";
+
+// components
+@import "./components/btn.scss";
+@import "./components/video";
+@import "./layout/navbar";
+@import "./components/burger-btn.scss";
+@import "./components/logo.scss";
+@import "./components/digital-container.scss";
+
+// layout sections
+@import "./layout/header";
+@import "./layout/hero.scss";
+@import "./layout/main-content";
+@import "./layout/footer";
+
+//page
+@import "./page/page.scss";
+@import "./page/page-one";
+@import "./page/page-two";
+@import "./page/page-three";

@@ -1,0 +1,50 @@
+// mixin used to verticall and horizontally center children of an element.
+@mixin center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin space-between() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-column() {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+// mixin for easy media query use
+@mixin media($viewport) {
+  @media screen and (min-width: map-get($breakpoints, $viewport)) {
+    @content;
+  }
+}
+
+// mixin which is used on every section to limit the width and horizontally center it.
+/* Containers */
+@mixin container {
+  margin: 0 auto;
+  width: 85%;
+  @include media(tablet-l){width: 90%;}
+  height: 100%;
+  @include media(mobile-xl){max-width: 1024px;}
+  @include media(laptop-lg){max-width: 1400px;}
+  @include media(desktop){max-width: 1500px;}
+  // padding: 0 1rem;
+}
+
+/* Sections */
+@mixin web-bg {
+  background-color: var(--web-bg);
+}
+
+@mixin greyBg {
+  background-color: var(--grey);
+}
+
+@mixin lightGreyBg {
+  background-color: var(--light-grey);
+}

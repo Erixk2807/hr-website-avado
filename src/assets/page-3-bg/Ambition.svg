@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261.61" height="261.61" viewBox="0 0 261.61 261.61">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.925" y1="0.925" x2="0.075" y2="0.075" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f04e98"/>
+      <stop offset="0.152" stop-color="#f04f93"/>
+      <stop offset="0.316" stop-color="#f15586"/>
+      <stop offset="0.485" stop-color="#f35e71"/>
+      <stop offset="0.657" stop-color="#f66b53"/>
+      <stop offset="0.831" stop-color="#fa7b2c"/>
+      <stop offset="1" stop-color="#ff8f00"/>
+    </linearGradient>
+    <filter id="Rectangle_63" x="0" y="0" width="261.61" height="261.61" filterUnits="userSpaceOnUse">
+      <feOffset dx="6.11" dy="6.11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.182" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Ambition" transform="translate(-497.435 -5344.617)">
+    <g transform="matrix(1, 0, 0, 1, 497.44, 5344.62)" filter="url(#Rectangle_63)">
+      <rect id="Rectangle_63-2" data-name="Rectangle 63" width="248.517" height="248.517" rx="63.606" transform="translate(0.44 0.44)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_194" data-name="Group 194">
+      <path id="Path_196" data-name="Path 196" d="M566.194,5556.8c-7.322-.775-25.48,3.7-25.363-8.518v-34.5a8.518,8.518,0,0,1,8.518-8.518h16.845a8.518,8.518,0,0,1,8.518,8.518v34.5A8.517,8.517,0,0,1,566.194,5556.8Z" fill="#fff"/>
+      <path id="Path_197" data-name="Path 197" d="M607.356,5556.96c-7.324-.784-25.476,3.708-25.363-8.518v-59.817c-.136-12.192,18.064-7.761,25.364-8.518a8.518,8.518,0,0,1,8.517,8.518v59.817A8.518,8.518,0,0,1,607.356,5556.96Z" fill="#fff"/>
+      <path id="Path_198" data-name="Path 198" d="M648.876,5556.96c-7.326-.79-25.473,3.716-25.363-8.518v-79.984c-.137-12.191,18.064-7.761,25.364-8.518a8.518,8.518,0,0,1,8.517,8.518v79.984A8.518,8.518,0,0,1,648.876,5556.96Z" fill="#fff"/>
+      <path id="Path_199" data-name="Path 199" d="M700.5,5372.161c-5.064-.551-3.533,8.56-4.964,10.382a74.2,74.2,0,0,1-7.038,6.793H677.218c-6.815-6.126-7.767-6.108-8.424-14.262-.364-4.219-6.966-3.541-6.49.653.116,1.188.78,7.224,2.085,9.822.944,1.853,5.885,6.409,10.278,10.231l-.012,28.139a10.793,10.793,0,0,0-8.739,10.592v111.662c.33,12.792,14.211,10.835,23.095,10.789a10.787,10.787,0,0,0,10.789-10.789V5434.511a10.777,10.777,0,0,0-9.426-10.7l-.012-27.429c4.544-3.939,9.974-8.879,10.964-10.837C702.652,5381.04,705.751,5373.119,700.5,5372.161Zm-18.969,40.654H683.5v7.108a4.424,4.424,0,0,0-1.969.128Z" fill="#fff"/>
+      <path id="Path_200" data-name="Path 200" d="M682.389,5387.741c9.937.138,9.937-15.461,0-15.322C672.454,5372.282,672.454,5387.88,682.389,5387.741Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

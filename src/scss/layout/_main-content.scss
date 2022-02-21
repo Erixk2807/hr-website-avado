@@ -1,0 +1,125 @@
+.main-content {
+  position: relative;
+  margin: clamp(3rem, 4vw, 10rem) auto;
+  padding: 1px 0;
+  width: 100%;
+
+  &--image {
+    background-image: url("../../assets/page-3-bg/hermonback.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+  }
+  
+  &--gradient {
+    background: rgb(240,78,152);
+    background: linear-gradient(0deg, rgba(240,78,152,1) 0%, rgba(247,127,126,1) 50%, rgba(255,183,98,1) 100%);
+  }
+
+  &__container{
+    @include container;
+    @include media(tablet-l) {
+    }
+    &--2col{
+      @include space-between();
+      align-items: stretch;
+      gap: 0;
+      flex-direction: column;
+      @include media(tablet-l) {
+        gap: clamp(2rem, 6vw, 8rem);
+        flex-direction: row;
+      }
+      >*{
+        flex: 1 1 50%;
+      }
+    }
+  }
+}
+
+.text-container {
+  position: relative;
+  overflow: hidden;
+  &--white-bg {
+    background-color: white;
+    border-radius: 20px;
+    padding: clamp(2rem, 3vw, 5rem);
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+.corner-image{
+    position: absolute;
+    background-size: contain;
+    max-width: 60%;
+    right: -5%;
+    bottom: -2%;
+   
+    @include media(mobile-l) {
+      right: -10%;
+      max-width: 40%;
+    } 
+    
+    @include media(tablet-pt) {
+      max-width: 40%;
+      bottom: -5%;
+    } 
+    @include media(tablet-l) {
+      width: 30%;
+      right: -5%;
+    } 
+}
+  
+
+
+  &--1col {
+    column-count: 1;
+  }
+
+  &--2col {
+    @include media(tablet-pt) { 
+      column-count: 2;
+      column-gap: 5%;
+      h1, h2 {
+        max-width: 26ch;
+        column-span: all;
+      }
+    
+  }
+  }
+
+  > *:last-child {
+  margin-bottom: 0;
+  }  
+
+}
+
+.image-container {
+  position: relative;
+    img{
+      position: absolute;
+      bottom: 0;
+    }
+}  
+
+.icons-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  @include media(mobile-xl){grid-template-columns: repeat(2, 1fr);}
+  @include media(tablet-pt){grid-template-columns: repeat(3, 1fr);}
+  @include media(tablet-l){grid-template-columns: repeat(5, 1fr);}
+  justify-items: center;
+  text-align: center;
+  &>* {
+    margin-bottom: 3rem;
+    }
+  &__icon {
+    max-width: clamp(14rem, 12vw, 18rem);
+    margin-bottom: 2rem;
+  }
+  &__text {
+    font-size: clamp(2.4rem, 2vw, 2.8rem);
+    line-height: 2.8rem;
+    font-weight: bold;
+    width: 12ch;
+  }
+
+}

@@ -1,0 +1,15 @@
+.footer {
+  text-align: center;
+  color: white;
+  background-color: #343438;
+  padding: 5.5rem 0;
+
+  @include media(tablet-l) {
+    text-align: start;
+    padding: 8.5rem 0;
+  }
+
+  &__content {
+    @include container;
+  }
+}

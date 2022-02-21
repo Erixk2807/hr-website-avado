@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/fje2snv.css"> -->
+    <link rel="stylesheet" href="https://use.typekit.net/mzq1hyo.css">
+    <title>Demo website</title>
+  </head>
+  <body>
+
+    <div id="page-one" class="page page--font-dark page-one">
+        <div class="page__inner">
+          <section class="main-content">
+            <div class="main-content__container">
+                <div class="lp-content flex-column">
+                  <p class="logo--large heading--center content-logo lp-logo">LOGO<p>
+                <p class="heading--center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a id="page-one-btn" class="btn btn--primary" href="#page-two">Begin</a>
+              </div>  
+            </div> 
+          </section>
+        </div>
+    </div>
+
+    <div id="page-two" class="page page--font-light page-two">
+      <div class="page__inner">
+        <div class="main-nav main-nav--hide">
+
+          <!-- This is the burger button on mobile view (hidden in largre viewports) -->
+          <button id="navbar-btn--one" class="js-burger-btn burger-btn"  aria-controls="main-nav" aria-haspopup="true" aria-expanded="false" aria-label="Main menu">
+            <span class="burger-btn__lines"></span>
+          </button>
+ 
+          <!-- main-nav icons (pop out in mobile view, hidden in largre viewport -->
+          <nav aria-labelledby="burger-btn" id="main-nav" class="js-main-nav main-nav_container">
+            <ul class="main-nav__list main-nav__list--icons">
+              <li class="main-nav__item">
+                <a href="#page-three" role="menuitem" class="main-nav__link"
+                  ><img
+                    src="./assets/menu-svgs/btn1.svg"
+                    alt=""
+                    class="main-nav__icon"
+                  />
+                  <span>Lorem Ipsum</span></a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a href="#" role="menuitem" class="main-nav__link"
+                  ><img
+                    src="./assets/menu-svgs/btn2.svg"
+                    alt=""
+                    class="main-nav__icon"
+                  />
+                  <span>Lorem Ipsum</span></a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a href="#" role="menuitem" class="main-nav__link"
+                  ><img
+                    src="./assets/menu-svgs/btn3.svg"
+                    alt=""
+                    class="main-nav__icon"
+                  />
+                  <span>Lorem Ipsum</span></a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a href="#" role="menuitem" class="main-nav__link"
+                  ><img
+                    src="./assets/menu-svgs/btn4.svg"
+                    alt=""
+                    class="main-nav__icon"
+                  />
+                  <span>Lorem Ipsum</span></a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a href="#" role="menuitem" class="main-nav__link"
+                  ><img
+                    src="./assets/menu-svgs/btn5.svg"
+                    alt=""
+                    class="main-nav__icon"
+                  />
+                  <span>Lorem Ipsum</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+
+        <section class="main-content">
+          <div class="main-content__container flex-sb">
+            <p class="logo--small content-logo" >LOGO</p>
+            <button id="print-btn" class="main-nav__link btn btn--secondary">
+              Loremu ipsum
+            </button>
+          </div>  
+        </section>    
+        
+        <section class="main-content">
+          <div class="main-content__container main-content__container--2col">
+            <div class="text--1col">
+              <h1 class="heading--primary">Welcome to Avado!</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam fuga cupiditate quae voluptas quasi quas veniam atque? Sed atque doloribus fugiat odit repellendus doloremque, molestiae dolorem ea officiis debitis?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam fuga cupiditate quae voluptas quasi quas veniam atque? Sed atque doloribus fugiat odit repellendus doloremque, molestiae dolorem ea officiis debitis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam fuga cupiditate quae voluptas quasi quas veniam atque? Sed atque doloribus fugiat odit repellendus doloremque, molestiae dolorem ea officiis debitis?
+              </p>
+            </div>
+            
+            <div class="video">
+              <video id="video" class="">
+                <source src="#" type="video/webm" />
+  
+                <source src="#" type="video/mp4" />
+  
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </video>
+              <!-- img below is the custom video play btn -->
+              <img tabindex id="video-btn" src="./assets/body-svgs/btn-play.svg" alt="" class="video__btn"></img>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-content mobile-view">
+          <div class="main-content__container">
+            <nav >
+              <ul class="icons-container">
+                <li>
+                  <a href="#page-three" class="btn">
+                    <img class="icons-container__icon" src="/src/assets/page-2-bg/Icons/Culture button.png" alt="">
+                    <span class='icons-container__text'>Loremu ipsum</span>
+                  </a>          
+                </li>
+                <li>
+                  <a href="#" class="btn">
+                    <img class="icons-container__icon" src="/src/assets/page-2-bg/Icons/Growth and development button.png" alt="">
+                    <span class='icons-container__text'>Loremu ipsum</span>
+                  </a>    
+                </li>
+                <li>
+                  <a href="#" class="btn">
+                    <img class="icons-container__icon" src="/src/assets/page-2-bg/Icons/Joining us button.png" alt="">
+                    <span class='icons-container__text'>Loremu ipsum loremu ipsum</span>
+                  </a>   
+                </li>
+                <li>
+                  <a href="#" class="btn">
+                    <img class="icons-container__icon" src="/src/assets/page-2-bg/Icons/Ways of working button.png" alt="">
+                    <span class='icons-container__text'>Loremu ipsum loremu ipsum</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="btn">
+                    <img class="icons-container__icon" src="/src/assets/page-2-bg/Icons/Working life button.png" alt="">
+                    <span class='icons-container__text'>Loremu ipsum</span>
+                  </a>           
+                </li>
+              </ul>
+     
+            </nav>
+          </div>
+        </section>
+
+      </div>
+      
+    </div>
+
+
+    <div id="page-three" class="page page page--font-dark page-three">
+      <div class="page__inner">
+      <header id="page-three-top" class="header">
+      <div class="hero--background-image"></div>
+      <!-- navbar = entire navbar -->
+
+        <div id="header__navbar" class="main-nav">
+
+          <!-- This is the burger button on mobile view (hidden in largre viewports) -->
+          <button id="navbar-btn--two" class="js-burger-btn burger-btn"  aria-controls="main-nav" aria-haspopup="true" aria-expanded="false" aria-label="Main menu">
+            <span class="burger-btn__lines"></span>
+          </button>
+
+          <!-- main-nav icons (pop out in mobile view, hidden in largre viewport -->
+          <nav aria-labelledby="burger-btn" id="main-nav" class="js-main-nav main-nav_container">
+              <ul class="main-nav__list main-nav__list--home">
+                <li class="main-nav__item">
+                  <a href="#" role="menuitem" class="main-nav__link"
+                    ><img
+                      src="./assets/menu-svgs/btn-home.svg"
+                      alt=""
+                      class="main-nav__icon"
+                  /></a>
+                </li>
+                <li class="main-nav__item main-nav__item--btn">
+                  <button id="print-btn" class="main-nav__link btn btn--secondary">
+                    Loremu ipsum
+                  </button>
+                </li>
+              </ul>
+              <ul class="main-nav__list main-nav__list--icons">
+                <li class="main-nav__item main-nav__item--active">
+                  <a href="#" role="menuitem" class="main-nav__link active"
+                    ><img
+                      src="./assets/menu-svgs/btn1.svg"
+                      alt=""
+                      class="main-nav__icon"
+                    />
+                   <span>Avado Values</span></a
+                  >
+                </li>
+                 <li class="main-nav__item">
+                   <a href="#" role="menuitem" class="main-nav__link"
+                     ><img
+                       src="./assets/menu-svgs/btn2.svg"
+                       alt=""
+                       class="main-nav__icon"
+                     />
+                    <span>Lorem Ipsum</span></a
+                   >
+                 </li>
+                 <li class="main-nav__item">
+                   <a href="#" role="menuitem" class="main-nav__link"
+                     ><img
+                       src="./assets/menu-svgs/btn3.svg"
+                       alt=""
+                       class="main-nav__icon"
+                     />
+                     <span>Lorem Ipsum</span></a
+                   >
+                 </li>
+                 <li class="main-nav__item">
+                   <a href="#" role="menuitem" class="main-nav__link"
+                     ><img
+                       src="./assets/menu-svgs/btn4.svg"
+                       alt=""
+                       class="main-nav__icon"
+                     />
+                     <span>Lorem Ipsum</span></a
+                   >
+                 </li>
+                 <li class="main-nav__item">
+                   <a href="#" role="menuitem" class="main-nav__link"
+                     ><img
+                       src="./assets/menu-svgs/btn5.svg"
+                       alt=""
+                       class="main-nav__icon"
+                     />
+                     <span>Lorem Ipsum</span></a
+                   >
+                 </li>
+              </ul>
+              <div class="main-nav__logo ">
+                <p class="content-logo">LOGO</p>
+              </div>
+          </nav>
+        </div>
+<!-- "hero - section with video"> -->
+
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__video video">
+            <video id="video" class="">
+              <source src="#" type="video/webm" />
+
+              <source src="#" type="video/mp4" />
+
+            </video>
+            <!-- img below is the vustom video play btn -->
+            <img tabindex id="video-btn" src="./assets/body-svgs/btn-play.svg" alt="" class="video__btn"></img>
+          </div>
+          <div class="hero__text">
+            <!-- <h1 class="hero__heading heading--primary">Lorem Ipsum</h1> -->
+            <p class="hero__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam fuga cupiditate quae voluptas quasi quas veniam atque? 
+            </p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      
+      
+      <!-- main content 1 with added margin on top and two icons -->
+      <section class="main-content">
+        <div class="main-content__container">
+          <div class="text-container--2col">
+          <h1 class="heading--primary">Loreum ipsum</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam fuga cupiditate quae voluptas quasi quas veniam atque? Sed atque doloribus fugiat odit repellendus doloremque, molestiae dolorem ea officiis debitis?
+            </p>
+            <ul class="paragraph paragraph__list paragraph__list--highlight">
+              <li>Loremu ipsum loremu ipsum;</li>
+              <li>Loremu ipsum;</li>
+              <li>Loremu ipsum;</li>
+              <li>Lorem ipsum dolor sit amet;</li>
+              <li>Loremu ipsum;</li>
+              <li>Loremu ipsum;</li>
+              <li>Loremu ipsum.</li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam fuga cupiditate quae voluptas quasi quas veniam atque? Sed atque doloribus fugiat odit repellendus doloremque, molestiae dolorem ea officiis debitis?<strong class="paragraph--highlight">Lorem ipsum dolor.</strong></p>
+            <h3 class="heading--tertiary">Lorem ipsum dolor sit </h3>   
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam fuga cupiditate quae voluptas quasi quas veniam atque? Sed atque doloribus fugiat odit repellendus doloremque, molestiae dolorem ea officiis debitis?</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam fuga cupiditate quae voluptas quasi quas veniam atque?
+            </p>
+            <ul class="paragraph paragraph__list">
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit:
+                <ul class="paragraph paragraph__list text-margin-top">
+                  <li>Loremu Ipsum</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+              </li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo expedita id, similique vitae tempore blanditiis ex aliquam pariatur, explicabo ipsum veritatis quasi maiores temporibus nisi dolor maxime magnam eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.
+                <ul class="paragraph paragraph__list text-margin-top">
+                  <li>Loremu ipsum;</li>
+                  <li>Loremu ipsum loremu ipsum;</li>
+                  <li>Loremu ipsum loremu ipsum;</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="heading heading--tertiary">Loremu ipsum loremu ipsum?</p>
+          </div>
+        </div>
+      </section>
+
+        <!-- Main content 2 with person image -->
+      <section class="main-content main-content--image">
+        <div class="main-content__container main-content__container--2col">
+          <div class="text-container text-container--1col text-container--white-bg">
+            <h3 class="heading--tertiary">Lorem ipsum dolor sit amet consectetur...</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni..</p>
+            <h3 class="heading--tertiary">Loremu ipsum</h3>
+            <ul class="paragraph paragraph__list">
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde?</li>
+            </ul>
+          </div>
+          <div class="image-container mobile-view">
+            <img
+              src="./assets/page-3-bg/Hermon.png"
+              alt=""
+              class=""
+            />
+          </div>
+        </div>
+      
+      </section>
+
+      <!-- Main content 3 with go to top button -->
+      <section class="main-content">
+        <div class="main-content__container">
+          <div class="text-container--2col">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</p>
+              <p class="heading--tertiary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</p>
+          </div>
+        </div>
+      </section>
+      <section class="main-content main-content--gradient">
+        <div class="main-content__container">
+          <div class="text-container text-container--2col text-container--white-bg">
+            <h2 class="heading--secondary">Lorem ipsum dolor sit...</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</p>
+            <p>So what are our Values, and how do they work?</p>
+            <p>When we co-created our Values, we wanted values that would:</p>
+            <ul class="paragraph paragraph__list">
+              <li>Guide all of our decisions and ways of working;</li>
+              <li>Underline everything we do as a company;</li>
+              <li>Guide how we treat people;</li>
+              <li>Facilitate our behaviour;</li>
+              <li>Guide hiring decisions;</li>
+              <li>Stimulate fun and innovation, and nurture a culture of success;</li>
+              <li>Articulate our identity.</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</p>
+            <ul class="paragraph paragraph__list">
+              <li>WLorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+            <p >Going back to what was said earlier about how we’ll describe the culture well, we’ll break our Values down into the “culture categories”:</p>
+            <ul class="paragraph paragraph__list">
+              <li>Lorem ipsum Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum dolor sit amet consectetur!</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+            </ul>
+            <div class="corner-image">
+              <img src="./assets/page-3-bg/corner_decor.svg" alt="">
+            </div>
+          </div>
+          <!-- <div class="main-content__image">
+            <img
+              src="./assets/page-3-bg/Hermon.png"
+              alt=""
+              class=""
+            />
+          </div> -->
+        </div>
+      </section>
+      <section class="main-content">
+        <div class="main-content__container">
+            <h2 class="heading--secondary heading--center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <ul class="icons-container">
+              <li>
+                <button class="btn">
+                  <img class="icons-container__icon" src="/src/assets/page-3-bg/Accountability.svg" alt="">
+                  <span class='icons-container__text'>Loremu ipsum</span>
+                </button>                
+              </li>
+              <li>
+                <button class="btn">
+                  <img class="icons-container__icon" src="/src/assets/page-3-bg/Ambition.svg" alt="">
+                  <span class='icons-container__text'>Loremu ipsum</span>
+                </button>                    
+              </li>
+              <li>
+                <button class="btn">
+                  <img class="icons-container__icon" src="/src/assets/page-3-bg/Care.svg" alt="">
+                  <span class='icons-container__text'>Loremu ipsum</span>
+                </button>          
+              </li>
+              <li>
+                <button class="btn">
+                  <img class="icons-container__icon" src="/src/assets/page-3-bg/Empowerment.svg" alt="">
+                  <span class='icons-container__text'>Loremu ipsum</span>
+                </button>          
+              </li>
+              <li>
+                <button class="btn">
+                  <img class="icons-container__icon" src="/src/assets/page-3-bg/Transparency.svg" alt="">
+                  <span class='icons-container__text'>Loremu ipsum</span>
+                </button>           
+              </li>
+            </ul>
+
+        </div>
+      </section>
+      <section class="main-content">
+        <div class="main-content__container">
+          <div class="text-container--2col">
+            <h2 class="heading--secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid </p>
+              <ul class="paragraph paragraph__list">
+                <li clas>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Suntearum molestias saepe, sed ab ad quis, mollitia aliquid</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde?</li>
+              </ul>
+              <ul class="paragraph paragraph__list">
+                <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, sed ab ad quis, mollitia aliquid accusantium asperiores rem magni.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil dignissimos soluta tenetur aperiam unde? Sunt optio earum molestias saepe, m magni.
+                </li>
+              </ul>
+          </div>
+        </div>
+      </section>
+      <div class="main-content btn--scroll-top">
+        <img src="/src/assets/content_page/btn-scroll-top.svg" alt="" class="btn js-btn--scroll-top">
+      </div>
+    </main>
+    </div>
+  </div>
+  </body>
+</html>

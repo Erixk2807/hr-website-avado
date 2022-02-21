@@ -1,0 +1,15 @@
+
+
+#page-three {
+    .main-content {
+        .text-container {
+            &--white-bg {
+                flex-basis: 60%;
+            }
+        }
+        .image-container {
+            flex-basis: 40%;
+            @include media(tablet-l) {flex-basis: 30%;}
+        }
+    }
+}

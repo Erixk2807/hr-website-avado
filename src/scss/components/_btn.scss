@@ -1,0 +1,49 @@
+.btn {
+  border: none;
+  @include flex-column();
+  justify-content: center;
+  font-size: clamp(2.4rem, 2vw, 2.8rem);
+  border-radius: 30px;
+
+  &--primary {
+    background: #6154c7;
+    color: #ffffff;
+    padding: 0.5em 3em;
+    &:hover {
+      color: white;
+    }
+  }
+
+  &--secondary {
+    background: white;
+    color: rgb(52, 52, 56);
+    font-size: clamp(1.4rem, 1.2vw, 2rem);
+    line-height: 1.6;
+    padding: 0.8em 2em;
+  }
+
+  &--scroll-top {
+    @include container();
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    @include media(tablet-pt) {
+      justify-content: end;
+    }
+    img {
+      height: 100%;
+    }
+  }
+
+  &:hover {
+    text-decoration: underline;
+    opacity: 0.9;
+    transform: scale(1.01);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
