@@ -2,4 +2,6 @@
 
 ## About the project
 
-I got the initial build from another developer that includes ready-made Webpack environment and JS functionality. I added new content and wrote necessary HTML and SASS code. Also, updated JS code where it was needed. 
+I built this website in collaboration with another developer for the avado HR team. We prioritized accessibility and mobile responsiveness of the website. Most of the HTML structure and CSS styles were done by me, including mobile responsiveness of the website. 
+
+We used webpack as our boilerplate and SASS to code CSS. 
